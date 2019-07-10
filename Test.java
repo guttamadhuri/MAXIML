@@ -4,7 +4,7 @@ import java.awt.*;
 import java.awt.event.*;
 import javax.swing.*;
 
-class OnlineTest extends JFrame implements ActionListener
+class Test extends JFrame implements ActionListener
 {
 	JLabel l;
 	JRadioButton jb[]=new JRadioButton[5];
@@ -179,7 +179,7 @@ class OnlineTest extends JFrame implements ActionListener
 	}
 	public static void main(String s[])
 	{
-		new OnlineTest("Online Test Of Java");
+		new Test("Online Test Of Java");
 	}
 
 
